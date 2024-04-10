@@ -1,6 +1,6 @@
 import { assert } from "chai";
-import { Contract, Provider } from "../src";
 import { InfuraProvider } from "ethers";
+import { Contract, Provider } from "../src";
 
 const provider = new InfuraProvider("mainnet");
 const ethcallProvider = new Provider(provider, 1);
