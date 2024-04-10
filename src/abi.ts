@@ -19,10 +19,12 @@ export class Abi {
   }
 }
 
-function getFunctionSignature(name: string, inputs: ParamType[]) {
+function getFunctionSignature(
+  name: string,
+  inputs: ParamType[] | ReadonlyArray<ParamType>
+) {
   const types = [];
-  for (let i = 0; i < inputs.length; i++) {
-    const input = { ...inputs[i], components: [...inputs[i].components] };
+  for (const input of inputs) {
     if (input.type === "tuple") {
       const tupleString = getFunctionSignature("", input.components);
       types.push(tupleString);
