@@ -16,7 +16,7 @@ Make multiple Ethereum network requests in a single HTTP query. [ethcall](https:
 ## Example
 
 ```ts
-import { Contract, Provider } from "ethers-multicall";
+import { Contract, Provider } from "ethers-v6-multicall";
 import { InfuraProvider } from "ethers";
 
 import erc20Abi from "./abi/erc20.json";
