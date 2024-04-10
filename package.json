@@ -1,0 +1,48 @@
+{
+  "name": "ethers-v6-multicall",
+  "version": "0.1.0",
+  "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v6.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha -r @ts-tools/node \"test/**/*.test.ts\"",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json '{src,test}/**/*.ts' --fix",
+    "prepublishOnly": "yarn build && yarn test && yarn lint"
+  },
+  "keywords": [
+    "ethers",
+    "multicall"
+  ],
+  "author": "Cavan Flynn <cavan.m.flynn@gmail.com>",
+  "contributors": [
+    "Ilia Aksakov <lexent.lex@gmail.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@ts-tools/node": "^0.8.3",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "tslint": "^5.12.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1"
+  },
+  "peerDependencies": {
+    "ethers": "^6.11.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexent3010/ethers-v6-multicall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lexent3010/ethers-v6-multicall/issues"
+  },
+  "homepage": "https://github.com/lexent3010/ethers-v6-multicall#readme"
+}
