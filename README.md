@@ -1,4 +1,4 @@
-# ethers-multicall
+# ethers-v6-multicall
 
 Make multiple Ethereum network requests in a single HTTP query. [ethcall](https://github.com/Destiner/ethcall) for ethers v6.
 
