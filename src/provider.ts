@@ -1,8 +1,8 @@
 import { Provider as EthersProvider } from "ethers";
 import { all } from "./call";
 import { getEthBalance } from "./calls";
-import { ContractCall } from "./types";
 import multicallAddresses from "./multicall-addresses";
+import { ContractCall } from "./types";
 
 export class Provider {
   private _provider: EthersProvider;
