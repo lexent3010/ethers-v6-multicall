@@ -82,6 +82,7 @@ call();
 - Sonic
 - Puppynet Shibarium
 - Manta Pacific Mainnet
+- HashKey Chain
 - X1 Testnet
 - X Layer Mainnet
 - BitTorrent
@@ -190,7 +191,7 @@ call();
 - The Root Network - Porcini
 - Canto
 - DOS Chain
-- Kaia
+- Klaytn
 - Zenchain Testnet
 - Base
 - IOTA EVM
@@ -242,6 +243,7 @@ call();
 - Linea Goerli Testnet
 - Linea Sepolia Testnet
 - Linea Mainnet
+- Metis Sepolia
 - BOB
 - Treasure
 - Geist Mainnet
@@ -250,6 +252,7 @@ call();
 - Polygon Mumbai
 - Polygon Amoy
 - Berachain bArtio
+- Berachain
 - Blast
 - Base Goerli
 - Base Sepolia
